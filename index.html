@@ -1,12 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Minha Página HTML</title>
-  </head>
-  <body>
-    <h1>Bem-vindo à minha página HTML</h1>
-    <p>Hello world!</p>
-    <br>
-    <p>Teste 2</p>
-  </body>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Principal/public/styles/Input.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+  </style>
+</head>
+<body>
+
+<nav class="navbar" id="myNavbar">
+  <div class="logo">
+    <a href="#"><img src="Principal/public/Assets/SVG/logoTOT.png"></a>
+  </div>
+  <a href="#home">Menu</a>
+  <a href="#pagina2">Pagina 2</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</nav>
+
+<main class="conteiner">
+  <div class="text-content">
+    <div class="title">
+      <h1>Página 01</h1>
+      <br>
+    </div>
+    <div class="subtitle">
+      <h3>Página 01</h3>
+    </div>
+    <div class="text">
+      <p>
+        Lörem ipsum posade sys, i bill hypose: sedan diren inte nyss, aska bade, liksom nilig. Revirtad hexasa. Negen ogon, i embrejsa, i maskade spertad, homosangen trande lande etnogam, miv nysade i antigen til kvasingar. Epigände fatur. Trengen popreliga än monoskapet made ok så tisade och bed sovitåledes hiling i ism. 
+        Esm polylynade i mosyr decingen låföv prenade emedan behin för aktig servicebarn i doninade, födede stereopol monorårat. Real spoilervarning och dävism, tekrohet prona bloppa, tyvis vaskade prere föskapet stalker groupie innan frisparkssprej, fastän por, nyrat alltså monon. Religa dotisam råliga antropokrati tåssa Gretaeffekten, trak tetrasam epinde ir. Ägäras sad bepädivis dor ök liksom plaligen fotosocial oaktat or madänar. Hagisk spede i pärat bloppis infrasm gälång obanera närvaropeng matregt än famaheten, dagshandlare popol rende tetrarade vada. 
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer class="baseboard" id="mybaseboard">
+  <button>Próxima Página</button>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
+
+</body>
 </html>
