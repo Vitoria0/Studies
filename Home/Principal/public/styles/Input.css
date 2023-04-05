@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:invalid {
+    border: 2px dashed red;
+}
+  
+input:valid {
+    border: 2px solid black;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0%;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #b8b8b8;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 2%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #b8b8b8;
+    color: black;
+}
+.navbar .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {display: none;}
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.logo{
+    float: left;
+    padding: 0.5%;
+    padding-left: 5%;
+}
+
+.baseboard{
+    overflow: hidden;
+    background-color: #b8b8b8;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    text-align: center;
+    place-self: center;
+}
+
+.baseboard button {
+    padding: 1%;
+    float: center;
+    position: center;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.baseboard button:hover {
+    background-color: #b8b8b8;
+    color: black;
+}
+
+.text-content{
+    position: relative;
+    float: center;
+    text-align: center;
+}
+
+.subtitle{
+    position: relative;
+    float: center;
+    text-align: center;
+    padding: 1%;
+}
+
+.text{
+    position: relative;
+    float: center;
+    text-align: center;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+form {
+    font: 1em sans-serif;
+    max-width: 320px;
+    margin: auto;
+  }
+  
+  p > label {
+    position: relative;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  fieldset {
+    width: 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+  
+
