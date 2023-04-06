@@ -40,5 +40,5 @@ function setCookie(cname,cvalue,exdays) {
        if (user != "" && user != null) {
          setCookie("username", user, 30);
        }
-    }
   }
+}

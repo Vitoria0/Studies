@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
+    margin: 0%;
 }
 .navbar {
     overflow: hidden;
@@ -107,13 +108,6 @@ body{
     text-align: center;
 }
 
-.title{
-    position: relative;
-    float: center;
-    text-align: center;
-    padding: 1%;
-}
-
 .subtitle{
     position: relative;
     float: center;
@@ -158,3 +152,4 @@ form {
     box-shadow: none;
   }
   
+
