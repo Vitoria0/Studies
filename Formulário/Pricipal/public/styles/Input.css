@@ -33,17 +33,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 5%;
 }
 
 .container-riscos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     justify-content: space-between;
-    flex-direction: column;
+    text-align: center;
 }
 
 .text-content {
@@ -115,8 +116,6 @@ body {
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-    display: fl;
-   align-items: center;
 }
 
 .box-text .txt {
