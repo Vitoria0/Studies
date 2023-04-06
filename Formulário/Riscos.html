@@ -1,77 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" type="text/css" href="Pricipal/public/styles/Input.css">
-     <script type="text/javascript" src="Pricipal/public/SRC/Components/validation.js"></script>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto&display=swap" rel="stylesheet">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-	<style>
-  </style>
+    <link rel="stylesheet" type="text/css" href="Pricipal/public/styles/Input.css">
+    <script type="text/javascript" src="Pricipal/public/SRC/Components/validation.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<main>
-    <div class="container-riscos">
-        <div class="box-text">
-            <div class="text-content">
-                <div class="txt">
-                    <p>
-                        Esse exemplo é comum no seu dia a dia, correto?
-                    </p>
-                    <p>
-                        Você consegue identificar os riscos presentes nesse processo?
-                    </p>
-                </div>
-                <h2 class="subtitle">
-                    Selecione os corretos:
-                </h2>
-            </div>
-            <div class="validation">
-                <form class="options" method="get">
-                    <div class="left-cont">
-                        <div class="opt-txt">
-                            <input type="checkbox" id="Crédito" name="Riscos" value="credrisc">
-                            <label for="Crédito">Risco de Crédito</label>
-                            <br>
-                        </div>
-                        <div class="opt-txt">
-                            <input type="checkbox" id="Operacional" name="Riscos" value="oprrisc">
-                            <label for="Operacional">Risco Operacional</label>
-                            <br>
-                        </div>
-                        <div class="opt-txt">
-                            <input type="checkbox" id="Compliance" name="Riscos" value="comprisc">
-                            <label for="Compliance">Risco de Compliance</label>
-                            <br>
-                        </div>
+    <main>
+        <div class="container-riscos">
+            <div class="box-text">
+                <div class="text-content">
+                    <div class="txt">
+                        <p>Esse exemplo é comum no seu dia a dia, correto?</p>
+                        <p>Você consegue identificar os riscos presentes nesse processo?</p>
                     </div>
-                    <div class="left-cont">
-                        <div class="opt-txt">
-                            <input type="checkbox" id="Socioambiental" name="Riscos" value="socrisc">
-                            <label for="Socioambiental">Risco Socioambiental</label>
-                            <br>
+                    <h2 class="subtitle">Selecione os corretos:</h2>
+                </div>
+                <div class="validation">
+                    <form class="options" method="get">
+                        <div class="left-cont">
+                            <div class="opt-txt">
+                                <input type="checkbox" id="Crédito" name="Riscos" value="True">
+                                <label for="Crédito">Risco de Crédito</label><br>
+                            </div>
+                            <div class="opt-txt">
+                                <input type="checkbox" id="Operacional" name="Riscos" value="False">
+                                <label for="Operacional">Risco Operacional</label><br>
+                            </div>
+                            <div class="opt-txt">
+                                <input type="checkbox" id="Compliance" name="Riscos" value="False">
+                                <label for="Compliance">Risco de Compliance</label><br>
+                            </div>
                         </div>
-                        <div class="opt-txt">
-                            <input type="checkbox" id="Liquidez" name="Riscos" value="liqrisc">
-                            <label for="Liquidez">Risco de Liquidez</label>
-                            <br>
-                        </div>
-                        <div class="opt-txt">
-                            <input type="checkbox" id="Mercado" name="Riscos" value="mercrisc">
-                            <label for="Mercado">Risco de Mercado</label>
-                            <br>
+                        <div class="left-cont">
+                            <div class="opt-txt">
+                                <input type="checkbox" id="Socioambiental" name="Riscos" value="False">
+                                <label for="Socioambiental">Risco Socioambiental</label><br>
+                            </div>
+                            <div class="opt-txt">
+                                <input type="checkbox" id="Liquidez" name="Riscos" value="False">
+                                <label for="Liquidez">Risco de Liquidez</label><br>
+                            </div>
+                            <div class="opt-txt">
+                                <input type="checkbox" id="Mercado" name="Riscos" value="True">
+                                <label for="Mercado">Risco de Mercado</label><br>
+                            </div>
                         </div>
                         <div class="btn-riscos">
-                        <button type="submit">Enviar</button>
+                            <button type="submit">Enviar</button>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
 </body>
+
 </html>
