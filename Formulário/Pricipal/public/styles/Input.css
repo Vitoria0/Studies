@@ -1,3 +1,4 @@
+
 :root {
     --font-family: 'Roboto', sans-serif;
     --primary-color: #00769D;
@@ -6,67 +7,67 @@
     --button-background: #0090D5;
     --button-color: aliceblue;
     --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-* {
+    }
+    
+    
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    }
+
+    body {
+    min-height: 100vh;
     font-size: 16px;
     background: var(--background-color);
-}
-
-body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     gap: 16px;
-    font-size: 30px;
-}
-
-.subtitle {
-    font-size: 30px;
+    }
+    
+    .subtitle {
     font-family: var(--font-family);
     font-style: normal;
+    font-size: 30px;
     color: var(--primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
-}
-
-.container-riscos {
+    padding: 3%;
+    }
+    
+    .container-riscos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
     text-align: center;
-}
-
-.text-content {
+    }
+    
+    .text-content {
     position: relative;
     padding: 2%;
-}
-
-.txt {
+    }
+    
+ .txt {
     font-family: 'Inter';
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: var(--secondary-color);
-}
-
-.left-cont {
+    }
+    
+     .left-cont {
     margin-left: 2%;
     text-align: left;
-}
-
-.opt-txt {
+    }
+    
+    .opt-txt {
     margin-right: auto;
     padding-bottom: 10%;
     font-family: var(--font-family);
@@ -74,24 +75,22 @@ body {
     font-weight: 600;
     font-size: 20px;
     color: var(--primary-color);
-}
-
-.opt-txt input {
-    border: 1px solid #ffffff;
-    text-align: center;
-    justify-items: center;
-    align-items: center;
+    }
+    
+    .opt-txt input {
     width: 41px;
     height: 41px;
-    background: #FFFFFF;
+    text-align: center;
     vertical-align: middle;
     position: relative;
     top: -1px;
+    background: #FFFFFF;
+    border: 1px solid #ffffff;
     box-shadow: var(--box-shadow);
-}
-
-.btn-riscos button {
-    margin: 1%;
+    }
+    
+    .btn-riscos button {
+    margin: auto;
     padding: 2% 5%;
     background: var(--button-background);
     border: 1px solid #000000;
@@ -100,25 +99,23 @@ body {
     font-style: normal;
     color: var(--button-color);
     text-align: center;
-    margin: auto;
     display: block;
-}
-
-.container-left-cont {
+    }
+    
+     .container-left-cont {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly
-  }
-
-.box-text {
+    justify-content: space-evenly;
+    }
+    
+     .box-text {
     height: 100%;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
-}
-
-.box-text .txt {
-    font-family: (--font-family);
-    color: #003249;
-  }
+    }
+    
+    .box-text .txt {
+        font-family: (--font-family);
+        color: #003249;
+    }
